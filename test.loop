@@ -1,0 +1,9 @@
+#define ADD(a,b,c) \
+	a := b; \
+	LOOP c DO \
+		a := a + 1 \
+	ENDLOOP
+
+## cool comment
+
+ADD(x0, x1, x2)

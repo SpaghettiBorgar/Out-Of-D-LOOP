@@ -1,0 +1,18 @@
+{
+	"configurations": [
+		{
+			"type": "code-d",
+			"request": "launch",
+			"name": "Debug D project",
+			"cwd": "${workspaceFolder}",
+			"program": "./loop",
+			"args": [
+				"--input",
+				"test.loop",
+				"0",
+				"2",
+				"3"
+			]
+		}
+	]
+}
